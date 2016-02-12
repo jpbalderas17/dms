@@ -1,4 +1,6 @@
-
+<?php
+require_once 'template/newfolder_modal.php';
+?>
     <!-- Metis Menu Plugin JavaScript -->
     <script src="bower_components/metisMenu/dist/metisMenu.min.js"></script>
     <script src="bower_components/datatables/media/js/jquery.dataTables.min.js"></script>

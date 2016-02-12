@@ -92,7 +92,7 @@
                         <i class="fa fa-wrench fa-fw"></i> Admin <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="asset_models.php"><i class="fa  fa-user"></i> Users</a>
+                        <li><a href="user.php"><i class="fa  fa-user"></i> Users</a>
                         </li>
                         <li><a href="asset_models.php"><i class="fa  fa-users"></i> User Groups</a>
                         </li>
@@ -134,10 +134,10 @@
                                 <b>NEW</b> <span class="caret"></span>
                               </button>
                               <ul class="dropdown-menu">
-                                <li style="border-bottom:0px"><a href="#">Folder</a></li>
+                                <li style="border-bottom:0px"><a href='#' data-toggle='modal' data-target='#NewFolderModal'>Folder</a></li>
                                 <li role="separator" class="divider"></li>
                                 <li style="border-bottom:0px"><a href="#"> File Upload</a></li>
-                                <li style="border-bottom:0px"><a href="#"> Folder fa-upload</a></li>
+                                <li style="border-bottom:0px"><a href="#"> Folder Upload</a></li>
                               </ul>
                             </div>
                         </li>
@@ -145,14 +145,14 @@
                             <a href="index.php"><i class="fa fa-folder"></i> My Drive</a>
                         </li>
                         <li>
-                            <a href="index.php"><i class="fa fa-group"></i> Shared With Me</a>
+                            <a href="shared.php"><i class="fa fa-group"></i> Shared With Me</a>
                         </li>
                         <li>
-                            <a href="index.php"><i class="fa fa-files-o"></i> All Files</a>
+                            <a href="all_files.php"><i class="fa fa-files-o"></i> All Files</a>
                         </li>
                         
                         <li>
-                            <a href="index.php"><i class="fa fa-trash"></i> Trash</a>
+                            <a href="thrash.php"><i class="fa fa-trash"></i> Trash</a>
                         </li>
 
                         
