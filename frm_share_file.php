@@ -55,7 +55,7 @@
                                         <tbody>
                                             <?php
                                                 if(empty($_GET['status']) || $_GET['status']=='All'){
-                                                    $assets=$con->myQuery("SELECT CONCAT(last_name,', ',first_name,' ',middle_name)as current_holder FROM qry_assets WHERE is_deleted=0")->fetchAll(PDO::FETCH_ASSOC);
+                                                    $assets=$con->myQuery("SELECT CONCAT(first_name,' ',middle_name,' ',last_name) as name FROM qry_users")->fetchAll(PDO::FETCH_ASSOC);
                                                 }
                                                
 

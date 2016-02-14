@@ -94,11 +94,9 @@
                     <ul class="dropdown-menu dropdown-user">
                         <li><a href="user.php"><i class="fa  fa-user"></i> Users</a>
                         </li>
-                        <li><a href="asset_models.php"><i class="fa  fa-users"></i> User Groups</a>
+                        <li><a href="user_groups.php"><i class="fa  fa-users"></i> User Groups</a>
                         </li>
-                        <li><a href="asset_models.php"><i class="fa  fa-info"></i> Labels</a>
-                        </li>
-                        <li><a href="asset_models.php"><i class="fa  fa-bars"></i> Audit Logs</a>
+                        <li><a href="audit_logs.php"><i class="fa  fa-bars"></i> Audit Logs</a>
                         </li>
                         
                     </ul>
@@ -136,8 +134,8 @@
                               <ul class="dropdown-menu">
                                 <li style="border-bottom:0px"><a href='#' data-toggle='modal' data-target='#NewFolderModal'>Folder</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li style="border-bottom:0px"><a href="#"> File Upload</a></li>
-                                <li style="border-bottom:0px"><a href="#"> Folder Upload</a></li>
+                                <li style="border-bottom:0px"><a href="#" data-toggle='modal' data-target='#UploadFileModal'> File Upload</a></li>
+                                <li style="border-bottom:0px"><a href="#" data-toggle='modal' data-target='#UploadFolderModal'> Folder Upload</a></li>
                               </ul>
                             </div>
                         </li>
@@ -150,7 +148,19 @@
                         <li>
                             <a href="all_files.php"><i class="fa fa-files-o"></i> All Files</a>
                         </li>
-                        
+                         <li class="sidebar-search text-center">
+                            <div class='form-group'>
+                            <label>Folders</label>
+                            <select class='form-control'>
+                                <option>Sample Folder1</option>
+                                <option>Folder 01</option>
+                                <option>Folder 01/ Sub Folder1</option>
+                                <option>Folder 01/ Sub Folder2</option>
+                                <option>Folder 02</option>
+                            </select>
+                            </div>
+                            <button onclick='window.location.replace("index2.php")' class='btn btn-info btn-sm' style='width:100%'>Go</button>
+                        </li>
                         <li>
                             <a href="thrash.php"><i class="fa fa-trash"></i> Trash</a>
                         </li>

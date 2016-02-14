@@ -39,7 +39,7 @@
                                             <thead>
                                                 <tr>
                                                     
-                                                    <th style='max-width:5px'></th>
+                                                    
                                                     
                                                     <th>Users Shared</th>
                                                     <th>User Groups Shared</th>
@@ -50,7 +50,7 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td class='text-center'><input type='checkbox'></td>
+                                                    
                                                     
                                                     <td>User1,User1,User3</td>
                                                     <td>Group1,Group</td>
@@ -62,8 +62,6 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td  class='text-center'><input type='checkbox'></td>
-                                                    
                                                     <td>User1,User1,User3</td>
                                                     <td>Group1,Group</td>
                                                     <td>Read/Write</td>
@@ -74,8 +72,6 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td  class='text-center'><input type='checkbox'></td>
-                                                    
                                                     <td></td>
                                                     <td>Group</td>
                                                     <td>Read</td>

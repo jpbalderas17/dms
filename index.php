@@ -39,7 +39,7 @@
                                             
                                             <th style='max-width:5px'></th>
                                             <th>Name</th>
-                                            <th>Date Modified</th>
+                                            <th>Description</th>
                                             <th style='max-width:80px;'>Actions</th>
                                         </tr>
                                     </thead>
@@ -52,10 +52,10 @@
                                             <td></td>
 
                                             <td class='text-center'>
-                                                <a class='btn btn-sm btn-default' href='#'><span class='fa fa-comment'></span></a>
+                                                <a class='btn btn-sm btn-default' href='#' data-toggle='modal' data-target='#CommentModal'><span class='fa fa-comment'></span></a>
                                                 <a class='btn btn-sm btn-default' href='share_file.php'><span class='fa fa-share'></span></a>
-                                                <a class='btn btn-sm btn-warning' href='#'><span class='fa fa-pencil'></span></a>
-                                                <a class='btn btn-sm btn-danger' href='#'><span class='fa fa-trash'></span></a>
+                                                <a class='btn btn-sm btn-warning' href='#' data-toggle='modal' data-target='#EditFolderModal'><span class='fa fa-pencil'></span></a>
+                                                <a class='btn btn-sm btn-danger' href='#' ><span class='fa fa-trash'></span></a>
                                             </td>
                                         </tr>
                                         <?php
@@ -81,9 +81,9 @@
                                                     if($key=='id'):
                                                 ?>
                                                     <td class='text-center'>
-                                                        <a class='btn btn-sm btn-default' href='#'><span class='fa fa-comment'></span></a>
+                                                        <button class='btn btn-sm btn-default' href='#' data-toggle='modal' data-target='#CommentModal'><span class='fa fa-comment'></span></button>
                                                         <a class='btn btn-sm btn-default' href='share_file.php'><span class='fa fa-share'></span></a>
-                                                        <a class='btn btn-sm btn-warning' href='#'><span class='fa fa-pencil'></span></a>
+                                                        <a class='btn btn-sm btn-warning' href='#' data-toggle='modal' data-target='#EditFileModal'><span class='fa fa-pencil'></span></a>
                                                         <a class='btn btn-sm btn-danger' href='#'><span class='fa fa-trash'></span></a>
                                                     </td>
                                                 <?php

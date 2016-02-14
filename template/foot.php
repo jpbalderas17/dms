@@ -1,5 +1,10 @@
 <?php
 require_once 'template/newfolder_modal.php';
+require_once 'template/upload_file_modal.php';
+require_once 'template/upload_folder_modal.php';
+require_once 'template/comment_modal.php';
+require_once 'template/edit_folder.php';
+require_once 'template/edit_file_modal.php';
 ?>
     <!-- Metis Menu Plugin JavaScript -->
     <script src="bower_components/metisMenu/dist/metisMenu.min.js"></script>

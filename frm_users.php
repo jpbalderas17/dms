@@ -132,27 +132,9 @@ if(!AllowUser(array(1))){
                                     </div>
                                 </div>
                                 <div class='form-group'>
-                                    <label class='col-sm-12 col-md-3 control-label'> Location</label>
-                                    <div class='col-sm-12 col-md-9'>
-                                        <div class='row'>
-                                            <div class='col-sm-11'>
-                                                <select class='form-control' name='location_id' data-placeholder='Select Location' <?php echo!(empty($asset))?"data-selected='".$asset['location_id']."'":NULL ?>>
-                                                    <?php
-                                                    echo makeOptions($location);
-                                                    ?>
-                                                </select>
-                                            </div>
-                                            <div class='col-ms-1'>
-                                                <a href='locations.php' class='btn btn-sm btn-success'><span class='fa fa-plus'></span></a>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>                                
-                                <div class='form-group'>
                                     <div class='col-sm-12 col-md-9 col-md-offset-3 '>
                                         <a href='user.php' class='btn btn-default'>Cancel</a>
-                                        <button type='submit' class='btn btn-success'> <span class='fa fa-check'></span> Save</button>
+                                        <button type='button' class='btn btn-success'> <span class='fa fa-check'></span> Save</button>
                                     </div>
                                     
                                 </div>
